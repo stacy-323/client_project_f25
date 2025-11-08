@@ -11,53 +11,73 @@
 
   <header class="header">
     <div class="skip"><a tabindex="0" href="#main">Skip to Main Content</a></div>
-        <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
+        <a href = "index.html"><img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo"></a>
         <nav class="nav">
             <ul>
                 <li><a href = "index.html">Home</a></li>
                 <li><a href = "resume.html" class="active">Resumes</a></li>
                 <li><a href = "networking.html">Networking & Connections</a></li>
                 <li><a href = "interviews.html">Interviews</a></li>
+                <li><a href = "404.html">Job Search</a></li>
             </ul>
         </nav>
     <h1>Resume Support</h1>
   </header>
 
     <main id="main">
-
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     <div class="container">
 
+            <!--VERTICAL NAV FOR DESKTOP-->
+      <div class="sticky">
+          <nav class="left_nav">
+              <h3>Quick Links</h3>
+              <ul>
+                  <li><a href = "#resume">Writing a Resume</a></li>
+                  <li><a href = "#resume_faqs">Resume FAQs</a></li>
+                  <li><a href = "#cover_letters">Cover Letters</a></li>
+                  <li><a href = "#cover_letter_faqs">Cover Letter FAQs</a></li>
+                  <li><a href = "#portfolio">Showcasing a Portfolio</a></li>
+                  <li><a href = "#linkedin_profiles">LinkedIn Profile</a></li>
+              </ul>
+          </nav>
+      </div>
+
       <section>
+        <br>
         <img src="images/MCOMMONS-FinalsStudyLocations2024-25.jpg" alt="A student in a white sweatshirt sits at a table in the Law Library and works on their laptop.">
         <h2>Application Matierials</h2>
         <p>
           Your application materials are often your first impression with potential employers. This section provides you with the tools and resources to create compelling resumes, cover letters, and portfolios that highlight your skills and experiences effectively.
         </p>
+        <!--make a grid box for links-->
           <ul>
             <li><a href="#resume">Resume</a></li>
             <li><a href="#cover_letters">Cover Letters</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#linkedin_profiles">LinkedIn Profiles</a></li>
           </ul>
-      </section>
+
 
     <br>
-
+      <!--creaft a resume story-->
       <section id="resume">
         <h2>Craft a Resume that Tells Your Story</h2>
         <p>
           Your resume is often your first impression—an opportunity to highlight your unique strengths, skills, and experiences to potential employers. Whether you’re starting from scratch or looking to polish an existing resume, these resources are here to help you every step of the way.
         </p>
         <p>
-          UMSI students are in high demand, and a clear, well-organized resume will help you stand out among applicants. On this page, you'll find practical tips, templates, and guides—all tailored to the needs of School of Information students and aligned with employer expectations.
+          UMSI students are in high demand, and a clear, well-organized resume will help you stand out among applicants.
         </p>
-        <p>
-          Need feedback? You can always <a href="https://umich.instructure.com/courses/137916/pages/talk-to-a-career-coach" target="_blank">meet with a CDO Career Coach</a> to review your materials.
+        <p class = "highlighted_p">
+          <strong>Need feedback?</strong> You can always <a href="https://umich.instructure.com/courses/137916/pages/talk-to-a-career-coach" target="_blank">meet with a CDO Career Coach</a> to review your materials.
         </p>
       </section>
+      </section>
 
+      <!--resume writing made easy-->
       <section>
-        <h3>Resume Writing Made Easy: Steps to Success</h3>
+        <h3 class="highlighted_h3">Resume Writing Made Easy: Steps to Success</h3>
         <ol>
           <li><strong>Download a UMSI-Approved Template:</strong> Start with a format that works—no need to design from scratch.</li>
           <li><strong>Gather Your Experiences:</strong> List jobs, internships, volunteer roles, coursework, and projects most relevant to your goals.</li>
@@ -67,6 +87,7 @@
         </ol>
       </section>
 
+      <!--Resume resources-->
       <section>
         <h3>Resume Resources</h3>
         <ul>
@@ -95,59 +116,44 @@
             Attend a Resume Refresh workshop, review video tutorials, or access additional templates.
           </li>
         </ul>
-        <p>
-          Ready for review? <a href="https://umich.instructure.com/courses/137916/pages/talk-to-a-career-coach" target="_blank">Book a resume review appointment with a CDO Career Coach</a>.
+        <p class="highlighted_p">
+          <strong>Ready for review?</strong> <a href="https://umich.instructure.com/courses/137916/pages/talk-to-a-career-coach" target="_blank">Book a resume review appointment with a CDO Career Coach</a>.
         </p>
       </section>
 
-      <section>
-        <h3>Resume FAQ</h3>
-        <!-- <ul>
-          <li>
-            <strong>How long should my resume be?</strong><br>
-            For most UMSI students and new grads, one page is best. More experienced professionals may require two pages.
-          </li>
-          <li>
-            <strong>Do I need a different resume for each application?</strong><br>
-            It’s wise to tailor your resume to the requirements and keywords of each opportunity.
-          </li>
-          <li>
-            <strong>Is it okay to include coursework or student projects?</strong><br>
-            Absolutely! UMSI coursework and projects are valued by employers, especially if they show relevant skills and impact.
-          </li>
-          <li>
-            <strong>How often should I update my resume?</strong><br>
-            Update your resume every semester, after major projects, or whenever you gain a new role or responsibility.
-          </li>
-        </ul> -->
-        <p>
-          <strong>How long should my resume be?</strong><br>
-          For most UMSI students and new grads, one page is best. More experienced professionals may require two pages.
-        </p>
-        <p>
-          <strong>Do I need a different resume for each application?</strong><br>
-          It’s wise to tailor your resume to the requirements and keywords of each opportunity.
-        </p>
-        <p>
-          <strong>Is it okay to include coursework or student projects?</strong><br>
-          Absolutely! UMSI coursework and projects are valued by employers, especially if they show relevant skills and impact.
-        </p>
-        <p>
-          <strong>How often should I update my resume?</strong><br>
-          Update your resume every semester, after major projects, or whenever you gain a new role or responsibility.
-        </p>
+      <!--Accordian Resume FAQs-->
+      <section id="resume_faqs">
+        <h3 class="highlighted_h3">Resume FAQ</h3>
+        <button class="accordion">How long should my resume be?</button>
+        <div class="panel">
+          <p>For most UMSI students and new grads, one page is best. More experienced professionals may require two pages.</p>
+        </div>
+        <button class="accordion">Do I need a different resume for each application?</button>
+        <div class="panel">
+          <p>It’s wise to tailor your resume to the requirements and keywords of each opportunity.</p>
+        </div>
+        <button class="accordion">Is it okay to include coursework or student projects?</button>
+        <div class="panel">
+          <p><i>Absolutely!</i> UMSI coursework and projects are valued by employers, especially if they show relevant skills and impact.</p>
+        </div>
+        <button class="accordion">How often should I update my resume?</button>
+        <div class="panel">
+          <p>Update your resume every semester, after major projects, or whenever you gain a new role or responsibility.</p>
+        </div>
       </section>
         <!-- Content taken & modified from UMGPT with the prompt, "for the same content write me some intro content and resources for a resume page" - this was after I had asked for content for the home page.
         UMGPT. (2025). UMGPT (GPT-4.1 August 25th version) [Large language model]. -->
-
-
+        <!--Rerenced code from W3Schools for creating accodian menus.
+        W3Schools. (n.d.). How TO - Collapsibles/Accordion. https://www.w3schools.com/howto/howto_js_accordion.asp -->
     <br>
 
-
+    <!--Cover letters-->
     <section id="cover_letters">
       <h2>Writing Professional Cover Letters</h2>
       <p>
-        A cover letter complements your resume by allowing you to tell your story, share your motivations, and illustrate your fit for the specific role or organization. Unlike a resume, which lists facts, a cover letter should explain why you're interested in this position and why you're a great match. Start with a strong introduction -ideally addressing a specific person — and follow with one or two detailed paragraphs connecting your experiences to the job's requirements. End with a call to action, such as your desire to discuss your application further.
+        A cover letter complements your resume by allowing you to tell your story, share your motivations, and illustrate your fit for the specific role or organization. Unlike a resume, which lists facts, a cover letter should explain why you're interested in this position and why you're a great match.</p>
+      <p>
+        Start with a strong introduction -ideally addressing a specific person — and follow with one or two detailed paragraphs connecting your experiences to the job's requirements. End with a call to action, such as your desire to discuss your application further.
       </p>
         <h3>Cover Letters 101</h3>
         <ul>
@@ -158,25 +164,18 @@
           <li>Demonstrate enthusiasm for the position and company.</li>
         </ul>
     <br>
-        <h3>Cover Letter FAQ</h3>
-        <!-- <ul>
-          <li>
-            <strong>Do I need to write a new cover letter for every job application?</strong><br>
-            While it may be tempting to use the same cover letter for multiple applications, tailoring your cover letter for each role is highly recommended. Customizing your letter allows you to address the specific requirements of the job and shows the employer that you've done your research and are genuinely interested in their organization. A well-tailored cover letter helps you stand out from other applicants.
-          </li>
-          <li>
-            <strong>What should I do if I don't know who to address the cover letter to?</strong><br>
-            If you're unable to find the name of the hiring manager after thorough research, it's acceptable to use a general but  professional salutation. "Dear Hiring Manager" or "Dear [Job Title] Search Committee" are commonly used alternatives. Avoid  using outdated or generic salutations like "To Whom It May Concern" when possible, as a little effort to personalize your letter can make a positive impression.
-          </li>
-        </ul> -->
-        <p>
-          <strong>Do I need to write a new cover letter for every job application?</strong><br>
-          While it may be tempting to use the same cover letter for multiple applications, tailoring your cover letter for each role is highly recommended. Customizing your letter allows you to address the specific requirements of the job and shows the employer that you've done your research and are genuinely interested in their organization. A well-tailored cover letter helps you stand out from other applicants.
-        </p>
-        <p>
-          <strong>What should I do if I don't know who to address the cover letter to?</strong><br>
-          If you're unable to find the name of the hiring manager after thorough research, it's acceptable to use a general but  professional salutation. "Dear Hiring Manager" or "Dear [Job Title] Search Committee" are commonly used alternatives. Avoid  using outdated or generic salutations like "To Whom It May Concern" when possible, as a little effort to personalize your letter can make a positive impression.
-        </p>
+      <!--Cover letter FAQs-->
+      <section id="cover_letter_faqs">
+        <h3 class="highlighted_h3">Cover Letter FAQ</h3>
+        <button class="accordion">Do I need to write a new cover letter for every job application?</button>
+        <div class="panel">
+          <p>While it may be tempting to use the same cover letter for multiple applications, tailoring your cover letter for each role is highly recommended. Customizing your letter allows you to address the specific requirements of the job and shows the employer that you've done your research and are genuinely interested in their organization. A well-tailored cover letter helps you stand out from other applicants.</p>
+        </div>
+        <button class="accordion">What should I do if I don't know who to address the cover letter to?</button>
+        <div class="panel">
+          <p>If you're unable to find the name of the hiring manager after thorough research, it's acceptable to use a general but  professional salutation. "Dear Hiring Manager" or "Dear [Job Title] Search Committee" are commonly used alternatives. Avoid  using outdated or generic salutations like "To Whom It May Concern" when possible, as a little effort to personalize your letter can make a positive impression.</p>
+        </div>
+      </section>
     </section>
 
 
@@ -196,7 +195,7 @@
           <li>Choose a user-friendly platform or website builder (such as Behance, Wix, WordPress, GitHub for code, or personal websites) and update regularly.</li>
           <li>Ensure that your portfolio is mobile-friendly and easy to navigate; consider adding a downloadable PDF version upon request.</li>
         </ul>
-      <p>Check out these <a href="https://cofolios.com/">cool sample portfolios</a>!</p>
+      <p class="highlighted_p">Check out these <a href="https://cofolios.com/">cool sample portfolios</a>!</p>
     </section>
 
   <br>
@@ -205,25 +204,29 @@
     <h2>Creating Your LinkedIn Profile</h2>
       <img src="images/UMSI_CareerFair_02062025_14.jpg" alt="Students take headshots for LinkedIn at a DIY Photo Booth at the Michigan League."><br>
       <p>
-        Your LinkedIn profile is a living document that allows you to showcase your personal brand and expand your professional  network worldwide. Unlike a resume, it offers space to highlight extracurriculars, volunteer work, personal interests, and  endorsements. Start with a professional headshot and a unique headline that summarizes what you do or aspire to do. Use  the summary section to introduce yourself, your goals, and what you're passionate about. Add detailed entries for your  experiences, keeping keyword optimization in mind so recruiters can find you.<br><br>
+        Your LinkedIn profile is a living document that allows you to showcase your personal brand and expand your professional  network worldwide. Unlike a resume, it offers space to highlight extracurriculars, volunteer work, personal interests, and  endorsements.</p>
+      <p>
+        Start with a professional headshot and a unique headline that summarizes what you do or aspire to do. Use  the summary section to introduce yourself, your goals, and what you're passionate about. Add detailed entries for your  experiences, keeping keyword optimization in mind so recruiters can find you.<br></p>
+      <p class="highlighted_p">
         <strong>Did you know?</strong> The University Career Center offers free self-service professional headshots! <a href="https://careercenter.umich.edu/events/professional-headshots">Sign up for a session today</a>
       </p>
-        <h3>Pro Tips</h3>
+      <br>
+        <h3 class="highlighted_h3">Pro Tips!</h3>
         <ul>
           <li>Write a compelling headline and summary that showcase your strengths and interests.</li>
           <li>Add a professional photo and <strong>customize your LinkedIn URL</strong>.</li>
           <li>Regularly update your experience, skills, and any projects or certifications.</li>
           <li><strong>Request recommendations</strong> from supervisors or professors for credibility.</li>
         </ul>
-    <section class="important_section">
-    <h3>More LinkedIn Profile Resources</h3>
-    <ul>
-      <li><a href="https://docs.google.com/presentation/d/1nzh_zRxQBeps12FGQnP8DJLFVAzuLrXwaT8gTJa6pBk/edit?usp=sharing">Building Your Profile</a></li>
-      <li><a href="https://docs.google.com/presentation/d/1kqFbYkAhe2Zlu4ElnOWk4XWzFKqnp4PuacdANajyNiY/edit">Building Connections</a></li>
-      <li><a href="https://docs.google.com/document/d/15b0q8LJQdyR-fPMlEWRqNSSz-Ib9G3Vf1ZyHXQoy6no/edit?usp=sharing">LinkedIn Profile Rubric</a></li>
-    </ul>
-    <br>
     </section>
+
+    <section class="important_section">
+      <h2>More LinkedIn Profile Resources</h2>
+      <ul>
+        <li><a href="https://docs.google.com/presentation/d/1nzh_zRxQBeps12FGQnP8DJLFVAzuLrXwaT8gTJa6pBk/edit?usp=sharing">Building Your Profile</a></li>
+        <li><a href="https://docs.google.com/presentation/d/1kqFbYkAhe2Zlu4ElnOWk4XWzFKqnp4PuacdANajyNiY/edit">Building Connections</a></li>
+        <li><a href="https://docs.google.com/document/d/15b0q8LJQdyR-fPMlEWRqNSSz-Ib9G3Vf1ZyHXQoy6no/edit?usp=sharing">LinkedIn Profile Rubric</a></li>
+      </ul>
     </section>
 
   </div>
@@ -241,11 +244,77 @@
 <br>
     </main>
 
-  <footer class="footer">
-      <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
-      <p>University of Michigan School of Information | <a href="https://umich.instructure.com/courses/137916">UMSI Career Development Office </a></p>
-  </footer>
+    <footer class="footer">
+        <div>
+        <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
+        </div>
 
+        <div class="contact">
+        <h1>Contact</h1>
+        <p></p><strong>Email:</strong> <a href="mailto:umsi.academicsuccess@umich.edu">umsi.academicsuccess@umich.edu</a></p>
+        <p><strong>Phone:</strong> <a href="tel:7346477650">(734) 647-7650</a></p>
+        <p><strong>Address:</strong>
+        School of Information
+        University of Michigan
+        2200 Hayward Street
+        Ann Arbor, MI 48109</p>
+        </div>
+
+        <div class="socials">
+        <h1>Follow Us</h1>
+        <ul>
+        <li><a href="https://www.facebook.com/uomsi/">Facebook</a></li>
+        <li><a href="https://www.youtube.com/user/schoolofinformation">YouTube</a></li>
+        <li><a href="https://www.instagram.com/umschoolofinformation">Instagram</i></a></li>
+        <li><a href="https://www.linkedin.com/school/university-of-michigan---school-of-information/">LinkedIn</i></a></li>
+        </ul>
+        </div>
+
+        <div class="footer-bottom"><p>University of Michigan School of Information | <a href="https://umich.instructure.com/courses/137916">UMSI Career Development Office </a></p>
+        <br>
+        <p>© Copyrights <span id="year"></span> by Stacy - SI539 Client Project for Regents of the University of Michigan. All rights reserved.</p>
+        </div>
+
+      </footer>
 </body>
+
+<script>
+  let acc = document.getElementsByClassName("accordion");
+  let i;
+
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.display === "block") {
+        panel.style.display = "none";
+      } else {
+        panel.style.display = "block";
+      }
+    });
+  }
+  document.getElementById("year").innerHTML = new Date().getFullYear();
+
+    // Get the button
+  let mybutton = document.getElementById("myBtn");
+
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if ((document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) 
+    && window.innerWidth < 600) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
 
 </html>

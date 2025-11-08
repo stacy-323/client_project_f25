@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>404 Error</title>
+</head>
+
+<body>
+
+  <header class="header">
+  <!-- <a href = "#main" tabindex="0" class="skip">Skip to Main Content</a> -->
+  <div class="skip"><a tabindex="0" href="#main">Skip to Main Content</a></div>
+        <a href = "index.html"><img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo"></a>
+        <nav class="nav">
+            <ul>
+                <li><a href = "index.html">Home</a></li>
+                <li><a href = "resume.html">Resumes</a></li>
+                <li><a href = "networking.html">Networking & Connections</a></li>
+                <li><a href = "interviews.html">Interviews</a></li>
+                <li><a href = "404.html" class="active">Job Search</a></li>
+            </ul>
+        </nav>
+    <!-- <h1>Oops!</h1> -->
+  </header>
+
+  <main id="main">
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <div class="container">
+
+    <!--TRIAL VERTICAL NAV FOR DESKTOP-->
+    <!-- <div class="sticky">
+            <nav class="left_nav">
+                <h3>Page Jump</h3>
+                <ul>
+                    <li><a href = "index.html">Link 1</a></li>
+                    <li><a href = "resume.html">Link 2</a></li>
+                    <li><a href = "networking.html">Link 2</a></li>
+                    <li><a href = "interviews.html">Link 3</a></li>
+                    <li><a href = "404.html" class="active">Link 3</a></li>
+                </ul>
+            </nav>
+        </div> -->
+
+
+
+        <section>
+            <br>
+            <h1>Oops! Looks like this page didn't get the job...</h1>
+            <p style="color: gray"><small>the campus squirrels stole it again</small></p>
+            <p style="font-size: 3rem;">🐿️</p>
+            <br>
+            <p>But you still can — let's get you back on track.</p>
+            <br>
+            <a href="index.html" class="button">Return to Home</a>
+        </section>
+
+    </div>
+    <br>
+  </main>
+
+    <footer class="footer">
+        <div>
+        <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
+        </div>
+
+        <div class="contact">
+        <h1>Contact</h1>
+        <p></p><strong>Email:</strong> <a href="mailto:umsi.academicsuccess@umich.edu">umsi.academicsuccess@umich.edu</a></p>
+        <p><strong>Phone:</strong> <a href="tel:7346477650">(734) 647-7650</a></p>
+        <p><strong>Address:</strong>
+        School of Information
+        University of Michigan
+        2200 Hayward Street
+        Ann Arbor, MI 48109</p>
+        </div>
+
+        <div class="socials">
+        <h1>Follow Us</h1>
+        <ul>
+        <li><a href="https://www.facebook.com/uomsi/">Facebook</a></li>
+        <li><a href="https://www.youtube.com/user/schoolofinformation">YouTube</a></li>
+        <li><a href="https://www.instagram.com/umschoolofinformation">Instagram</i></a></li>
+        <li><a href="https://www.linkedin.com/school/university-of-michigan---school-of-information/">LinkedIn</i></a></li>
+        </ul>
+        </div>
+
+        <div class="footer-bottom"><p>University of Michigan School of Information | <a href="https://umich.instructure.com/courses/137916">UMSI Career Development Office </a></p>
+        <br>
+        <p>© Copyrights <span id="year"></span> by Stacy - SI539 Client Project for Regents of the University of Michigan. All rights reserved.</p>
+        </div>
+
+      </footer>
+
+  </body>
+
+  <script>
+  document.getElementById("year").innerHTML = new Date().getFullYear();
+
+    // Get the button
+  let mybutton = document.getElementById("myBtn");
+
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if ((document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) 
+    && window.innerWidth < 600) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+    </script>
+
+</html>
